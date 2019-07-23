@@ -1,0 +1,37 @@
+1. Color - Black background and white text, image borders(if any)
+2. Font - 
+3. 
+
+Information to add:
+1. Home
+2. About
+3. Services(To be added later on). Also add other interests like Machine learning and Robotics later
+4. Projects
+5. Education
+6. Contact
+7. Add LinkedIn, github info at the footer which should always be visible.
+
+
+LANDING PAGE(HOME):
+1. Black to gray transition in the back.
+2. Photo sweeps in from the left and Information sweeps from the right.
+3. After step-2 completion, the side bar(consisting of all the information like(About, home, XP) fades in from the backgrouund and is of black color. 
+4. Create a border around tabs in the side bar only when pointer is hovered over an element.
+
+About Page:
+
+Project
+
+
+Must haves:
+1. Mobile responsiveness.
+2. Simple and clear website.
+
+
+Some suggestions to improve the UX:
+1. A bar on the top should consist of about, projects etc info and it should not be scrollable.
+
+
+Some Add-ons/Fun things:
+1. About information should be presented as the user hovers over my image.
+2. SEO
