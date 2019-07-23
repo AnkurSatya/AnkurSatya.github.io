@@ -1,7 +1,3 @@
-1. Color - Black background and white text, image borders(if any)
-2. Font - 
-3. 
-
 Information to add:
 1. Home
 2. About
@@ -26,10 +22,11 @@ Project
 Must haves:
 1. Mobile responsiveness.
 2. Simple and clear website.
-
+3. Google fonts
 
 Some suggestions to improve the UX:
 1. A bar on the top should consist of about, projects etc info and it should not be scrollable.
+2. Add media queries for more phones(Variants of IPhones)
 
 
 Some Add-ons/Fun things:
