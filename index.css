@@ -70,8 +70,8 @@
 /* @media screen and (min-device-width: 1081px){
 } */
 
-/* For tablets */
-@media screen and (min-device-width: 300px) and (max-device-width: 1080px) and (-webkit-device-pixel-ratio: 3){
+/* For Phones*/
+@media screen and (min-device-width: 300px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2){
     .land-pg-parent{
         flex-direction: column;
     }
@@ -92,13 +92,13 @@
     .child:nth-child(2){
         align-self: center;
         height: 42vh;
-        padding-left: 25vw;
+        padding-left: 17vw;
         /* padding-top: 8vh; */
         /* background-color: gray; */
     }
 
     .side-bar-element{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-left: 5vw;
     margin-bottom: 0;
     }
