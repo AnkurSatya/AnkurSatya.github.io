@@ -1,0 +1,65 @@
+:root{
+    font-size: 1vw;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    }
+
+    .info-bar{
+        display: flex;
+        width: 20vw;
+        background-color: white;
+        flex-direction: column;
+        padding-top: 30vh;
+        padding-right: 16vw;
+    }
+
+    .about{
+        width: 80vw;
+        }
+
+        .about-child1{
+            height: 20vh;
+            background-color: black;
+            padding-left: 30vw;
+            padding-top: 2vh;
+        }
+
+        .about-child2{
+            padding-top: 2vh;
+            padding-left: 10vh;
+            padding-right: 10vh;
+            height: 80vh;
+            background-color: gray;
+        }
+
+.side-bar-element{
+    width: 80%;
+    font-size: 1rem;
+    font-family: 'Sarpanch';
+    text-decoration: none;
+    color: black;
+    padding-left: 5vw;
+    margin-bottom: 5vh;
+}
+
+.side-bar-element:hover{
+    font-weight: 800;
+    color: gray;
+}
+
+.profile-picture{
+    object-fit: contain;
+    width: 16vh;
+    height: 16vh;
+    border-radius: 50%;
+}
+
+.paragraph{
+    font-size: 1rem;
+    font-family: 'Rhodium Libre';
+}

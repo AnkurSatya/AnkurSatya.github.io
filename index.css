@@ -2,8 +2,6 @@
     font-size: 1vw;
 }
 
-/* Classes for landing page starts */
-
 @keyframes profile-picture{
     from{width: 0px;
         height: 0px;
@@ -37,6 +35,7 @@
     width: 80%;
     font-size: 1rem;
     font-family: 'Sarpanch';
+    text-decoration: none;
     color: white;
     padding-left: 25%;
     margin-bottom: 5vh;
@@ -69,17 +68,6 @@
     /* animation-name: intro;
     animation-duration: 3s; */
 }
-
-/* Classes for Landing page ends here */
-
-
-/* Classes for About Page Starts here */
-.about-pg-parent{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-}
-
 
 /* Media queries*/
 /* @media screen and (min-device-width: 1081px){
