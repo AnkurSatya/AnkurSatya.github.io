@@ -36,6 +36,7 @@
 .side-bar-element{
     width: 80%;
     font-size: 1rem;
+    font-family: 'Sarpanch';
     color: white;
     padding-left: 25%;
     margin-bottom: 5vh;
@@ -61,9 +62,10 @@
 }
 
 .intro{
-    font-size: 1rem;
+    font-size: 2.5rem;
     border-width: 10px;
-    color: white;
+    color: lightblue;
+    font-family: 'Rhodium Libre';
     /* animation-name: intro;
     animation-duration: 3s; */
 }
@@ -126,7 +128,8 @@
     }
 
     .intro{
-        font-size: 3rem;
+        padding: 5%;
+        font-size: 6rem;
         border: 1px
     }
 
