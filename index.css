@@ -66,6 +66,17 @@
     animation-duration: 3s; */
 }
 
+/* Classes for Landing page ends here */
+
+
+/* Classes for About Page Starts here */
+.about-pg-parent{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
 /* Media queries*/
 /* @media screen and (min-device-width: 1081px){
 } */
@@ -98,9 +109,12 @@
     }
 
     .side-bar-element{
-    font-size: 2.5rem;
-    padding-left: 5vw;
-    margin-bottom: 0;
+        width: 60%;
+        font-size: 2.5rem;
+        padding-left: 5vw;
+        /* margin-left: 7vw; */
+        margin-right: 3vw;
+        margin-bottom: 10vh;
     }
 
     .profile-picture{
