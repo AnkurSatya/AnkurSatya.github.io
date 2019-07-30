@@ -1,0 +1,103 @@
+:root{
+    font-size: 1vw;
+}
+
+/* The following configurations will work for laptop screens. */
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    }
+
+    .info-bar{
+        display: flex;
+        width: 20vw;
+        background-color: black;
+        flex-direction: column;
+        padding-top: 30vh;
+        padding-right: 16vw;
+        }
+        
+        .child{
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            }
+            .grandchild-1{
+                height: 10vh;
+                background-color: #d4d4d4;
+            }
+            .grandchild-2{
+                height: 90vh;
+                display: flex;
+                flex-direction: column;
+                }
+
+                .greatgrandchild-1{
+                    display: flex;
+                    flex-direction: row;
+                    /* width: 50%; */
+                    width: 100%;
+                    height: 50%;
+                    }
+                    .greatgreatgrandchild{
+                        width: 50%;
+                        height: 100%;
+                        margin: 1vw;
+                        /* border: 2px solid black; */
+                    }
+                    .greatgreatgrandchild:hover{
+                        background-color: #800020;
+                    }
+
+                .greatgrandchild-2{
+                    /* visibility: hidden; */
+                    display: flex;
+                    width: 100%;
+                    height: 50%;
+                    margin: 1vw;
+                    /* border: 2px solid black; */
+                    }
+                    .greatgrandchild-2:hover{
+                        background-color: #800020;
+                    }
+            
+
+.side-bar-element{
+    width: 80%;
+    font-size: 1rem;
+    font-family: 'Sarpanch';
+    text-decoration: none;
+    color: white;
+    padding-left: 5vw;
+    margin-bottom: 5vh;
+}
+
+.side-bar-element:hover{
+    font-weight: 800;
+    color: gray;
+}
+
+.heading{
+    font-family: "Merriweather";
+    margin-left: 35vw;
+    margin-right: 37vw;
+    border: 2px solid black;
+    }
+    .sub-heading{
+        font-family: "Merriweather";
+        margin-left: 13vw;
+        text-decoration: underline overline;
+    }
+    .sub-heading-2{
+        font-family: "Merriweather";
+        margin-left: 30vw;
+        text-decoration: underline overline;
+    }
+
+.paragraph{
+    padding: 3vw;
+    padding-top: 0;
+    font-size: 1.3rem;
+}
