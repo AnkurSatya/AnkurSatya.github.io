@@ -2,6 +2,7 @@
     font-size: 1vw;
 }
 
+/* The following configurations will work for laptop screens. */
 .parent{
     display: flex;
     flex-direction: row;
@@ -12,7 +13,7 @@
     .info-bar{
         display: flex;
         width: 20vw;
-        background-color: white;
+        background-color: #d4d4d4;
         flex-direction: column;
         padding-top: 30vh;
         padding-right: 16vw;
@@ -24,18 +25,56 @@
 
         .about-child1{
             height: 20vh;
-            background-color: black;
+            background-color: #d4d4d4;
             padding-left: 30vw;
             padding-top: 2vh;
         }
 
         .about-child2{
-            padding-top: 2vh;
-            padding-left: 10vh;
-            padding-right: 10vh;
+            display: flex;
+            justify-content: space-around;
+            align-content: space-around;
+            /* padding-top: 2vh; */
+            /* padding-left: 10vh; */
+            /* padding-right: 10vh; */
             height: 80vh;
-            background-color: gray;
-        }
+            background-color: white;
+            }
+            .about-child2-1{
+                padding-top: 5vh;
+                padding-left: 10vh;
+                padding-right: 10vh;
+                width: 50%;
+                /* background-color: red; */
+                /* background-color: white; */
+            }
+            .about-child2-2{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                height: 100vh;
+                width: 50%;
+                padding-left: 15vh;
+                padding-right: 15vh;
+                padding-top: 5vh;
+                font-size: 1.1rem;
+                /* background-color: yellow; */
+                }
+                .about-child2-2-item{
+                    padding-left: 1.4vw;
+                    width: 6vw;
+                    background-color: #d4d4d4;
+                    }
+                    .about-child2-2-item:nth-child(6){
+                        width: 10vw;
+                    }
+                    .about-child2-2-item:nth-child(8){
+                        width: 8vw;
+                    }
+                    .about-child2-2-item:nth-child(14){
+                        width: 13vw;
+                    }
+
 
 .side-bar-element{
     width: 80%;
@@ -60,6 +99,73 @@
 }
 
 .paragraph{
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-family: 'Rhodium Libre';
+}
+
+/* Media Queries */
+@media screen and  (min-device-width: 300px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2){
+    .parent{
+        flex-direction: column;
+        }
+        .info-bar{
+            width: 100vw;
+            height: 4vh;
+            flex-direction: row;
+            padding-top: 1vh;
+        }
+        .side-bar-element{
+            width: 60%;
+            font-size: 2.5rem;
+        }
+        
+        .about{
+            width: 100vw;
+            }
+            .about-child1{
+                height: 13vh;
+                background-color: white;
+                padding-left: 40vw;
+            }
+            .profile-picture{
+                width: 11vh;
+                height: 11vh;
+            }
+            .about-child2{
+                padding-top: 2vh;
+                flex-direction: column;
+                justify-content: center;
+            }
+                .about-child2-1{
+                    width: 100%;
+                    padding: 9vw;
+                    padding-right: 12vw;
+                }
+                .paragraph{
+                    font-size: 2.8rem;
+                }
+                .about-child2-2{
+                    width: 100%;
+                    padding-top: 0;
+                    padding-left: 35vw;
+                    }
+                    .about-child2-2-item{
+                        font-size: 2.6rem;
+                        width: 14vw;
+                        padding-left: 0;
+                        background-color: #d4d4d4;
+                        }
+                        .about-child2-2-item:nth-child(6){
+                            width: 22vw;
+                        }
+                        .about-child2-2-item:nth-child(8){
+                            width: 18vw;
+                        }
+                        .about-child2-2-item:nth-child(14){
+                            /* padding-right: 20vw; */
+                            /* padding-left: 0vw; */
+                            width: 34.6vw;
+                        }
+    
+
 }
