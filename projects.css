@@ -117,6 +117,7 @@
         flex-direction: column;
         }
         .info-bar{
+            position: fixed;
             flex-direction: row;
             height: 4vh;
             width: 100vw;
@@ -128,6 +129,9 @@
             }
             .child{
                 width: 100vw;
+                }
+                .grandchild-1{
+                    margin-top: 4vh;
                 }
                 .greatgrandchild-1{
                     flex-direction: column;
@@ -167,16 +171,30 @@
     .heading{
         margin-right: 23vw;
     }
-    .greatgrandchild-2{
+    .info-bar{
+        position: fixed;
+    }
+    .grandchild-1{
         margin-top: 4vh;
-    }   
+        height: 12vh;
+        }
+        .greatgrandchild-2{
+            margin-top: 4vh;
+        }   
 }
 
 @media screen and (max-device-width: 380px) and (-webkit-device-pixel-ratio: 2){
     .heading{
         margin-right: 23vw;
     }
-    .greatgrandchild-2{
-        margin-top: 4vh;
+    .info-bar{
+        position: fixed;
     }
+    .grandchild-1{
+        margin-top: 4vh;
+        height: 12vh;
+        }
+        .greatgrandchild-2{
+            margin-top: 4vh;
+        }
 }
