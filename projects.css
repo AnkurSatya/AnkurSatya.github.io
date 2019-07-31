@@ -132,7 +132,7 @@
                 .greatgrandchild-1{
                     flex-direction: column;
                     flex: wrap;
-                    height: 100vh;
+                    /* height: 0vh; */
                     }
                     .greatgreatgrandchild{
                         width: 100%;
@@ -149,6 +149,9 @@
                         margin-top: 2vh;
                         margin-left: 32vw;
                     }
+                .greatgrandchild-2{
+                    margin-top: 2vh;
+                }
 
         .heading{
             margin-right: 28vw;
@@ -163,11 +166,17 @@
 @media screen and (max-device-width: 360px) and (-webkit-min-device-pixel-ratio: 3){
     .heading{
         margin-right: 23vw;
+    }
+    .greatgrandchild-2{
+        margin-top: 4vh;
     }   
 }
 
 @media screen and (max-device-width: 380px) and (-webkit-device-pixel-ratio: 2){
     .heading{
         margin-right: 23vw;
+    }
+    .greatgrandchild-2{
+        margin-top: 4vh;
     }
 }
