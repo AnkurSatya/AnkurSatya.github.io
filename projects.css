@@ -89,12 +89,14 @@
 .sub-heading{
     font-family: "Merriweather";
     margin-left: 13vw;
-    text-decoration: underline overline;
-}
+    text-decoration: underline dotted;
+    /* text-decoration: underline overline; */
+    }
 .sub-heading-2{
     font-family: "Merriweather";
     margin-left: 26vw;
-    text-decoration: underline overline;
+    text-decoration: underline dotted;
+    /* text-decoration: underline overline; */
 }
 
 .paragraph{
@@ -183,6 +185,7 @@
         }   
 }
 
+/* For IPhones(non-Plus) */
 @media screen and (max-device-width: 380px) and (-webkit-device-pixel-ratio: 2){
     .heading{
         margin-right: 23vw;

@@ -13,11 +13,13 @@
     .info-bar{
         display: flex;
         width: 20vw;
+        height: 110vh;
         /* background-color: #d4d4d4; */
         background-color: black;
         flex-direction: column;
         padding-top: 30vh;
         padding-right: 16vw;
+        z-index: 3;
     }
 
     .about{
@@ -38,7 +40,7 @@
             /* padding-top: 2vh; */
             /* padding-left: 10vh; */
             /* padding-right: 10vh; */
-            height: 80vh;
+            /* height: 83vh; */
             background-color: white;
             }
             .about-child2-1{
@@ -115,6 +117,7 @@
 @media screen and  (min-device-width: 300px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2){
     .parent{
         flex-direction: column;
+        height: 109vh;
         }
         .info-bar{
             position: fixed;
@@ -145,6 +148,7 @@
                 padding-top: 2vh;
                 flex-direction: column;
                 justify-content: center;
+                height: 80vh;
             }
                 .about-child2-1{
                     width: 100%;
@@ -177,6 +181,14 @@
                             /* padding-left: 0vw; */
                             width: 34.6vw;
                         }
-    
+}
 
+/* For Samsung galaxy series */
+@media screen and (max-device-width: 360px) and (-webkit-min-device-pixel-ratio: 3){
+    .about-child2{
+        height: 95vh;
+        }
+        .about-child2-2-item:nth-child(15){ 
+            width: 36vw;
+        }
 }
