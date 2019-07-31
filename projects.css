@@ -142,7 +142,13 @@
                         font-size: 4.3rem;
                         font-weight: bold;
                         margin-left: 32vw;
-                        }
+                    }
+                    .sub-heading-2{
+                        font-size: 4.3rem;
+                        font-weight: bold;
+                        margin-top: 2vh;
+                        margin-left: 32vw;
+                    }
 
         .heading{
             margin-right: 28vw;
@@ -151,4 +157,17 @@
         .paragraph{
             font-size: 3rem;
         }
+}
+
+/* For Samsung galaxy series */
+@media screen and (max-device-width: 360px) and (-webkit-min-device-pixel-ratio: 3){
+    .heading{
+        margin-right: 23vw;
+    }   
+}
+
+@media screen and (max-device-width: 380px) and (-webkit-device-pixel-ratio: 2){
+    .heading{
+        margin-right: 23vw;
+    }
 }
