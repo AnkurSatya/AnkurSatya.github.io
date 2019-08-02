@@ -18,7 +18,7 @@
         background-color: black;
         flex-direction: column;
         padding-top: 30vh;
-        padding-right: 16vw;
+        /* padding-right: 16vw; */
         z-index: 3;
     }
 

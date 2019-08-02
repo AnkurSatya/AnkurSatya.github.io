@@ -22,9 +22,12 @@
     }
     
     .child:nth-child(1){
+        height: 100%;
+        width: 20%;
         display: flex;
         flex-direction: column;
-        padding-right: 16vw;
+        padding-top: 30vh;
+        /* padding-right: 16vw; */
     }
     .child:nth-child(2){
         padding-left: 5vw;
@@ -86,15 +89,20 @@
     }
 
     .child:nth-child(1){
+        width: 100vw;
+        position: fixed;
+        padding-top: 0.01vh;
         flex-direction: row;
-        height: 15vh;
-        /* background: red; */
+        height: 4vh;
+        margin-bottom: 4vh; 
+        /* margin-right: 0; */
         /* padding-right: 7vw; */
     }
 
     .child:nth-child(2){
         align-self: center;
         height: 42vh;
+        margin-top: 8vh;
         padding-left: 17vw;
         /* padding-top: 8vh; */
         /* background-color: gray; */
