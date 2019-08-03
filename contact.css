@@ -112,3 +112,61 @@
 .anchor{
     text-decoration: none;
 }
+
+/* Media Queries */
+@media screen and (min-device-width: 300px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2){
+    .parent{
+        flex-direction: column;
+        }
+        .info-bar{
+            position: fixed;
+            flex-direction: row;
+            height: 4vh;
+            width: 100vw;
+            padding-top: 1vh;
+            }
+            .side-bar-element{
+                width: 60%;
+                font-size: 2.5rem;
+            }
+
+        .contact-info{
+            width: 100vw;
+            height: 80vh;
+            margin-top: 4vh;
+            }
+            .child-1{
+                height: 23vh;
+            }   
+            .child-2{
+                flex-direction: column;
+                }
+                .grandchild-2{
+                    width: 100%;
+                    padding-top: 1vh;
+                }
+        
+        .paragraph{
+            font-size: 5rem;
+        }
+
+        .image{
+            margin-left: 30vw;
+            width: 20vw;
+            height: 15vh;
+        }
+
+        .another-paragraph{
+            padding-left: 23vw;
+            font-size: 4.5rem;
+        }
+
+        .email-id{
+            font-size: 4rem;
+        }
+
+        .third-paragraph{
+            padding-left: 23vw;
+            font-size: 4.5rem;
+        }
+}
